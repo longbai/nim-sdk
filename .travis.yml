@@ -1,0 +1,7 @@
+# using docker container
+sudo: false
+
+language: c
+
+before_script:
+    - export QINIU_TEST_ENV="travis"
